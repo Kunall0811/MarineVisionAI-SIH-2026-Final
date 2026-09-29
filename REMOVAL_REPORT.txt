@@ -1,0 +1,20 @@
+Original folder size: 11.93 GB (12,812,417,261 bytes)
+Final folder size: 80.39 MB (84292154 bytes)
+
+Original image count: 3,068 files
+Removed image count: 3068 files
+
+Original image storage: 11.08 GB (11,893,793,291 bytes)
+Removed image storage: 11.08 GB (11893793291 bytes)
+
+Model files retained: YES (backend/ai-models/marine-yolo26x.onnx, models/*, runs/weights)
+Labels retained: YES (428 YOLO annotation .txt files across train/val/test)
+Annotations retained: YES (100% of bounding boxes and class IDs)
+Training configuration retained: YES (class_mapping.json, class_distribution.json, args.yaml)
+data.yaml retained: YES (datasets/data.yaml and datasets/dataset.yaml)
+Database information retained: YES (MongoDB schemas, seed data, anomaly models)
+GIS information retained: YES (coordinates, bathymetry logic, 3D Cesium & 2D Leaflet maps)
+
+Other rebuildable files removed:
+- node_modules (backend & frontend) - Rebuildable on target via npm install
+- Temporary development scratch scripts and test artifacts

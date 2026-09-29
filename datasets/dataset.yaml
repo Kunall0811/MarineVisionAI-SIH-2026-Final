@@ -1,0 +1,15 @@
+# MarineVision AI - Side-Scan Sonar Real YOLO26x Dataset
+path: D:/MarineVision-AI-SIH26057-Upgraded/datasets
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: shipwreck
+  1: artificial_structure
+  2: rock
+  3: marine_debris
+  4: container
+  5: pipe
+  6: cylinder
+  7: ghost_net

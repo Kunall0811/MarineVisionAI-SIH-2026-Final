@@ -1,0 +1,2 @@
+The original dataset image pixels were removed from this deployment package to reduce the project below 100 MB. The trained YOLO26x model, labels, annotations, classes and training information remain unchanged.
+

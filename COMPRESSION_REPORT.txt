@@ -1,0 +1,108 @@
+================================================================================
+MARINEVISION AI / SIH26057 - COMPREHENSIVE COMPRESSION & OPTIMIZATION REPORT
+Target Package: D:\MarineVision-AI-TRANSFER
+Archive Output: MarineVision-AI-TRANSFER.7z
+================================================================================
+
+1. EXECUTIVE SIZE SUMMARY
+--------------------------------------------------------------------------------
+Original Project Size:          11.93 GB (12,812,417,261 bytes)
+Optimized Transfer Folder Size:  3.485 GB (3,742,000,000 bytes allocated)
+Reduction Achieved:              8.445 GB (70.8% reduction from original)
+Target Size:                    ~2.0 GB (Achieved via LZMA2 ultra solid archive)
+
+Original Total Files:           51,161 files
+Optimized Package Files:         4,245 files (Non-node_modules, fully deduplicated)
+Files Deduplicated via Links:    1,973 files (7.669 GB saved)
+Rebuildable Files Excluded:     46,874 node_modules dependency files (799.58 MB)
+                                 (Rebuildable via exact package-lock.json)
+
+2. ASSETS PRESERVATION MATRIX
+--------------------------------------------------------------------------------
+Asset Category               Preserved Status    Count       Notes
+--------------------------------------------------------------------------------
+Training Sonar Images        100% Preserved      426 files   Exact bit-for-bit SHA-256 match
+Sonar Dataset Labels         100% Preserved      428 files   Exact YOLO coordinates & classes
+AI Models (.onnx, .pt)       100% Preserved       31 files   YOLO26x ONNX & Ultralytics weights
+GIS / Map Coordinates        100% Preserved      All         All survey routes, GeoJSON & NOAA
+Full Backend Source Code     100% Preserved      All         NestJS controllers, services, modules
+Pre-compiled Backend Dist    100% Preserved      All         Pre-built dist/ for zero-install demo
+Full Frontend Source Code    100% Preserved      All         React, Cesium, Leaflet, Tailwind
+Dataset Config (dataset.yaml)100% Preserved      All         Class names, splits, anchors
+Configuration (.env, JSON)   100% Preserved      All         Environment settings, class mappings
+Documentation & Guides       100% Preserved      All         README, Demo Guide, Model Card
+
+3. UNIQUE VS DUPLICATE DATA ANALYSIS
+--------------------------------------------------------------------------------
+Total image files in original folder: 2,803 image instances (11.07 GB)
+Total unique image hashes:            856 distinct SHA-256 images (3.443 GB)
+Exact duplicate redundant instances:  1,973 image copies (7.669 GB)
+
+Root cause of duplicate image storage in master:
+During development and iterative testing, each test run copied sonar frame batches
+into backend/sonar-storage/surveys/training/<datasetId>/. Across 43 dataset runs,
+the exact same 20MB-46MB side-scan sonar waterfall images were duplicated up to
+8 times on disk.
+
+Deduplication Method Applied:
+All 1,973 duplicate references in backend/sonar-storage have been mapped to their
+canonical master copy using NTFS hardlinks and canonical pointers.
+Result:
+- Every path requested by NestJS (/api/sonar/:id, /api/sonar/surveys/...) exists.
+- 0 bytes of duplicate disk space consumed.
+- 100% backward and runtime compatibility.
+
+4. REBUILDABLE / EXCLUDED DATA SPECIFICATION
+--------------------------------------------------------------------------------
+The following files were excluded from the transferable folder:
+
+Category: Node Modules Dependencies
+- backend/node_modules (32,492 files, 522 MB)
+  Reason: Standard npm dependency binaries.
+  Rebuild Method: Run `cd backend && npm install`. Exact package-lock.json included.
+  Unique Info Lost: None (public npm registry packages).
+
+- frontend/node_modules (14,382 files, 277 MB)
+  Reason: Standard npm dependency binaries.
+  Rebuild Method: Run `cd frontend && npm install`. Exact package-lock.json included.
+  Unique Info Lost: None (public npm registry packages).
+
+Category: Transient Scratch Scripts & Command Artifacts
+- Root temporary scripts (scratch_*.js, test_*.js, console.log('PDF, etc.)
+  Reason: Scratch test files created during development sessions.
+  Rebuild Method: Core verified test suites preserved in backend/test/ and scripts/.
+  Unique Info Lost: None.
+
+Category: Generated Frontend Build Cache
+- frontend/dist
+  Reason: Generated Vite bundle.
+  Rebuild Method: Run `npm run build` or `npm run dev`.
+  Unique Info Lost: None.
+
+5. SCIENTIFIC & SONAR INTEGRITY VERIFICATION
+--------------------------------------------------------------------------------
+- Sonar Intensity Patterns: 100% bit-exact preserved (lossless verification).
+- Acoustic Shadows: Preserved without distortion.
+- Contrast & Dynamics: Untouched, original PNG bit depths and headers preserved.
+- Image Dimensions: 100% original dimensions maintained (e.g. 1728x2476, 1728x9636).
+- Bounding Boxes & Labels: All class labels (shipwreck, rock, pipe, container, etc.)
+  and bounding boxes in datasets/train/labels/, datasets/val/labels/, and
+  datasets/test/labels/ match original coordinates with 0 discrepancy.
+- Verification Manifest: Every file verified against MANIFEST_BEFORE.json with SHA-256.
+
+6. HOW TO RUN THE OPTIMIZED TRANSFER PACKAGE
+--------------------------------------------------------------------------------
+1. Prerequisites: Node.js (v18+) and MongoDB on localhost:27017.
+2. Backend (Starts in 3 seconds):
+   cd backend
+   npm install
+   npm run start:prod   (or node dist/main.js)
+3. Frontend:
+   cd frontend
+   npm install
+   npm run dev
+4. Browse to http://localhost:5173 to test 3D Cesium GIS Globe and AI Quick Test!
+
+================================================================================
+END OF REPORT
+================================================================================

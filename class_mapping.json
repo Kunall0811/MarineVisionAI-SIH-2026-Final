@@ -1,0 +1,50 @@
+{
+  "classes": [
+    "shipwreck",
+    "artificial_structure",
+    "rock",
+    "marine_debris",
+    "container",
+    "pipe",
+    "cylinder",
+    "ghost_net"
+  ],
+  "class_to_id": {
+    "shipwreck": 0,
+    "artificial_structure": 1,
+    "rock": 2,
+    "marine_debris": 3,
+    "container": 4,
+    "pipe": 5,
+    "cylinder": 6,
+    "ghost_net": 7
+  },
+  "object_type_mapping": {
+    "artificial_reef": "artificial_structure",
+    "barge_no_1": "artificial_structure",
+    "haltiner_barge": "artificial_structure",
+    "corsair": "marine_debris",
+    "corsican": "shipwreck",
+    "james_davidson": "shipwreck",
+    "lucinda_van_valkenburg": "shipwreck",
+    "monohansett": "shipwreck",
+    "monrovia": "shipwreck",
+    "shamrock": "shipwreck",
+    "viator": "shipwreck",
+    "wh_gilbert": "shipwreck",
+    "wp_thew": "shipwreck",
+    "dm_wilson": "shipwreck",
+    "dr_hanna": "shipwreck",
+    "eb_allen": "shipwreck",
+    "egyptian": "shipwreck",
+    "grecian": "shipwreck",
+    "heart_failure": "rock",
+    "near_shore": "rock",
+    "isaac_m_scott": "shipwreck",
+    "montana": "shipwreck",
+    "oscar_t_flint": "shipwreck",
+    "pewabic": "shipwreck",
+    "wp_rend": "shipwreck"
+  },
+  "description": "Deterministic mapping from sonar contact identities to YOLO detection classes."
+}

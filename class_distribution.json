@@ -1,0 +1,62 @@
+{
+  "total_images": 430,
+  "total_objects": 1000,
+  "classes": {
+    "shipwreck": {
+      "total_objects": 720,
+      "total_images": 322,
+      "train_objects": 539,
+      "val_objects": 113,
+      "test_objects": 68
+    },
+    "artificial_structure": {
+      "total_objects": 102,
+      "total_images": 34,
+      "train_objects": 75,
+      "val_objects": 15,
+      "test_objects": 12
+    },
+    "rock": {
+      "total_objects": 166,
+      "total_images": 70,
+      "train_objects": 126,
+      "val_objects": 20,
+      "test_objects": 20
+    },
+    "marine_debris": {
+      "total_objects": 12,
+      "total_images": 4,
+      "train_objects": 9,
+      "val_objects": 3,
+      "test_objects": 0
+    },
+    "container": {
+      "total_objects": 0,
+      "total_images": 0,
+      "train_objects": 0,
+      "val_objects": 0,
+      "test_objects": 0
+    },
+    "pipe": {
+      "total_objects": 0,
+      "total_images": 0,
+      "train_objects": 0,
+      "val_objects": 0,
+      "test_objects": 0
+    },
+    "cylinder": {
+      "total_objects": 0,
+      "total_images": 0,
+      "train_objects": 0,
+      "val_objects": 0,
+      "test_objects": 0
+    },
+    "ghost_net": {
+      "total_objects": 0,
+      "total_images": 0,
+      "train_objects": 0,
+      "val_objects": 0,
+      "test_objects": 0
+    }
+  }
+}

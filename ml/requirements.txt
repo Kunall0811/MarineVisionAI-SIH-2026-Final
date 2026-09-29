@@ -1,0 +1,15 @@
+# MarineVision AI - ml/ pipeline requirements
+# Tested conceptually against Python 3.10-3.12. Pin versions loosely; run
+# `pip list` after install and record exact versions in
+# training_metadata.json (the training script does this automatically).
+
+ultralytics>=8.2.0        # YOLO train/val/export (includes torch as a dependency)
+onnx>=1.16.0               # ONNX model format
+onnxruntime>=1.18.0         # ONNX inference for smoke-testing exported models
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+Pillow>=10.3.0
+PyYAML>=6.0.1
+tqdm>=4.66.0
+pandas>=2.2.0               # results.csv / predictions.csv handling
+matplotlib>=3.8.0           # confusion matrix / results plotting

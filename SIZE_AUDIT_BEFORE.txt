@@ -1,0 +1,415 @@
+================================================================================
+MARINEVISION AI / SIH26057 - COMPLETE RECURSIVE SIZE AUDIT (BEFORE)
+Timestamp: 2026-09-27T17:46:27.207Z
+Root Directory: D:\MarineVision-AI-SIH26057-Upgraded
+================================================================================
+
+1. TOTAL PROJECT SUMMARY
+--------------------------------------------------------------------------------
+Total Size:               11.93 GB (12812417261 bytes)
+Total Files:              51161
+Total Directories:        5151
+
+2. TOP-LEVEL FOLDERS BREAKDOWN
+--------------------------------------------------------------------------------
+backend                       :      9.21 GB (32775 files)
+datasets                      :      2.29 GB (856 files)
+frontend                      :    310.51 MB (17343 files)
+ml                            :     66.60 MB (41 files)
+models                        :     25.34 MB (3 files)
+runs                          :     23.99 MB (57 files)
+ai-models                     :     10.53 MB (3 files)
+(root)                        :      5.50 MB (65 files)
+reports                       :    471.29 KB (10 files)
+training                      :     37.65 KB (6 files)
+docs                          :      4.41 KB (2 files)
+
+3. FUNCTIONAL CATEGORIES SIZE BREAKDOWN
+--------------------------------------------------------------------------------
+Node Modules:                799.58 MB (46874 files)
+Datasets (Images+Labels):      2.36 GB (893 files)
+Images (All):                 11.07 GB (2865 files)
+AI Models (.onnx, .pt):       62.14 MB (31 files)
+Build & Cache (dist):         14.73 MB (610 files)
+Source Code (TS, JS, PY):      1.12 MB (271 files)
+Annotations & Labels:         50.90 KB (430 files)
+Metadata & Configuration:    550.85 KB (22 files)
+Documentation & Reports:      65.69 KB (23 files)
+Logs:                              0 B (0 files)
+Temporary & Generated:        94.70 KB (3 files)
+Other:                       290.64 KB (32 files)
+
+4. IMAGE BREAKDOWN
+--------------------------------------------------------------------------------
+Training Images:               9.19 GB (2436 files)
+Uploaded Image Copies:         1.82 GB (399 files)
+Generated Sonar Images:            0 B (0 files)
+Thumbnails & Previews:             0 B (0 files)
+Other Images:                 71.63 MB (30 files)
+
+5. LARGE FILES (> 10 MB)
+--------------------------------------------------------------------------------
+datasets/test/images/rock_0041.png                                   46.04 MB
+datasets/test/images/rock_0039.png                                   45.66 MB
+datasets/train/images/shipwreck_0057.png                             44.49 MB
+datasets/train/images/shipwreck_0122.png                             43.83 MB
+datasets/train/images/shipwreck_0206.png                             43.79 MB
+datasets/train/images/shipwreck_0128.png                             43.69 MB
+datasets/test/images/shipwreck_0021.png                              43.04 MB
+datasets/train/images/shipwreck_0082.png                             42.49 MB
+backend/sonar-storage/surveys/AI-BATCH/4b3d89e254cad626.png          36.78 MB
+datasets/train/images/rock_0305.png                                  36.78 MB
+backend/sonar-storage/surveys/AI-BATCH/708f1e493bc2d032.png          36.68 MB
+datasets/train/images/rock_0296.png                                  36.68 MB
+backend/sonar-storage/surveys/AI-BATCH/edf1874f290861e1.png          28.09 MB
+datasets/train/images/rock_0272.png                                  28.09 MB
+backend/sonar-storage/surveys/AI-BATCH/04981e49f349b997.png          27.10 MB
+datasets/train/images/rock_0282.png                                  27.10 MB
+backend/sonar-storage/surveys/AI-BATCH/5ca4e895433f8474.png          27.05 MB
+datasets/train/images/rock_0317.png                                  27.05 MB
+backend/sonar-storage/surveys/AI-BATCH/55a729a1dac32d6b.png          26.66 MB
+backend/sonar-storage/surveys/AI-BATCH/6ac3de406d0493a2.png          26.66 MB
+datasets/train/images/rock_0303.png                                  26.66 MB
+datasets/train/images/rock_0316.png                                  26.66 MB
+backend/sonar-storage/surveys/AI-BATCH/fdea75eaaf6d2a71.png          26.64 MB
+datasets/train/images/rock_0291.png                                  26.64 MB
+backend/sonar-storage/surveys/AI-BATCH/0efb6571fb044d09.png          24.95 MB
+datasets/train/images/artificial_structure_0249.png                  24.95 MB
+datasets/val/images/artificial_structure_0051.png                    24.86 MB
+backend/sonar-storage/surveys/AI-BATCH/739bdc0e23118249.png          24.50 MB
+datasets/train/images/artificial_structure_0261.png                  24.50 MB
+datasets/test/images/artificial_structure_0036.png                   24.47 MB
+datasets/val/images/artificial_structure_0052.png                    24.45 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab7d6ad0680af15b4edbd1e/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab7ebcdbd0fa43aba81cae0/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab8233385cb433e2314d591/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab8993068acd8118a6efc42/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab8996268acd8118a6efcf4/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab8f90d15dce2438c06c467/5de1a3419b7327d2.png    22.77 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/390eddc0c334fefe.png    22.70 MB
+backend/sonar-storage/surveys/training/6ab7d6ad0680af15b4edbd1e/390eddc0c334fefe.png    22.70 MB
+backend/sonar-storage/surveys/training/6ab7ebcdbd0fa43aba81cae0/390eddc0c334fefe.png    22.70 MB
+backend/sonar-storage/surveys/training/6ab8233385cb433e2314d591/390eddc0c334fefe.png    22.70 MB
+backend/sonar-storage/surveys/training/6ab8993068acd8118a6efc42/390eddc0c334fefe.png    22.70 MB
+backend/sonar-storage/surveys/training/6ab8996268acd8118a6efcf4/390eddc0c334fefe.png    22.70 MB
+backend/sonar-storage/surveys/training/6ab8f90d15dce2438c06c467/390eddc0c334fefe.png    22.70 MB
+datasets/test/images/artificial_structure_0033.png                   22.26 MB
+backend/sonar-storage/surveys/AI-BATCH/55860fe2152cbaf9.png          21.12 MB
+backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab7b280baa3613e6f28cefa/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/55860fe2152cbaf9.png    21.12 MB
+backend/sonar-storage/surveys/AI-BATCH/0ffd3aa486d2dfb4.png          21.06 MB
+backend/sonar-storage/surveys/AI-BATCH/a31f5c30d5c0bba6.png          21.06 MB
+backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab7b280baa3613e6f28cefa/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab7b280baa3613e6f28cefa/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab7fba995e6715c046412b8/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/0ffd3aa486d2dfb4.png    21.06 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/a31f5c30d5c0bba6.png    21.06 MB
+backend/sonar-storage/surveys/AI-BATCH/0736553209c7c590.png          20.90 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab7b280baa3613e6f28cefa/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/0736553209c7c590.png    20.90 MB
+backend/sonar-storage/surveys/AI-BATCH/f8ad24dc06b27632.png          20.81 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab7b280baa3613e6f28cefa/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab7fba995e6715c046412b8/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/f8ad24dc06b27632.png    20.81 MB
+backend/sonar-storage/surveys/AI-BATCH/f4fd9d9fdee36561.png          20.67 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab7b280baa3613e6f28cefa/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/f4fd9d9fdee36561.png    20.67 MB
+backend/sonar-storage/surveys/AI-BATCH/b52994d452737db9.png          19.71 MB
+datasets/train/images/shipwreck_0015.png                             19.71 MB
+backend/sonar-storage/surveys/AI-BATCH/b2e87bec809f7ad0.png          18.71 MB
+datasets/train/images/rock_0269.png                                  18.71 MB
+backend/sonar-storage/surveys/AI-BATCH/6bd5f747955ac123.png          18.59 MB
+datasets/train/images/rock_0279.png                                  18.59 MB
+datasets/test/images/rock_0038.png                                   18.39 MB
+backend/sonar-storage/surveys/AI-BATCH/2fe2ff8857c03968.png          18.30 MB
+datasets/train/images/rock_0273.png                                  18.30 MB
+backend/sonar-storage/surveys/AI-BATCH/2872963374534708.png          18.27 MB
+datasets/train/images/rock_0311.png                                  18.27 MB
+datasets/test/images/shipwreck_0006.png                              18.18 MB
+datasets/train/images/shipwreck_0139.png                             18.12 MB
+backend/sonar-storage/surveys/AI-BATCH/c3d20583a4e8d4ec.png          17.82 MB
+datasets/train/images/rock_0297.png                                  17.82 MB
+datasets/train/images/shipwreck_0051.png                             17.51 MB
+backend/sonar-storage/surveys/SURV-HIST-NOAA/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab7d6ad0680af15b4edbd1e/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab7ebcdbd0fa43aba81cae0/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab7efb895e6715c046409d5/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab8233385cb433e2314d591/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab8993068acd8118a6efc42/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab8996268acd8118a6efcf4/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/training/6ab8f90d15dce2438c06c467/1e72e15b69986b6c.png    17.22 MB
+backend/sonar-storage/surveys/SURV-HIST-NOAA/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab7d6ad0680af15b4edbd1e/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab7ebcdbd0fa43aba81cae0/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab7efb895e6715c046409d5/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab8233385cb433e2314d591/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab8993068acd8118a6efc42/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab8996268acd8118a6efcf4/68600083009bbf6a.png    17.10 MB
+backend/sonar-storage/surveys/training/6ab8f90d15dce2438c06c467/68600083009bbf6a.png    17.10 MB
+datasets/val/images/shipwreck_0009.png                               16.78 MB
+datasets/train/images/shipwreck_0224.png                             16.73 MB
+datasets/train/images/shipwreck_0088.png                             16.24 MB
+datasets/train/images/shipwreck_0066.png                             15.83 MB
+datasets/train/images/shipwreck_0048.png                             14.85 MB
+datasets/train/images/shipwreck_0120.png                             14.66 MB
+backend/sonar-storage/surveys/AI-BATCH/8477f7c86e65bec6.png          14.54 MB
+datasets/train/images/rock_0314.png                                  14.54 MB
+backend/sonar-storage/surveys/AI-BATCH/c50117d78579a09f.png          13.81 MB
+datasets/train/images/rock_0268.png                                  13.81 MB
+backend/sonar-storage/surveys/AI-BATCH/89a7d6bbd9a66975.png          13.51 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/89a7d6bbd9a66975.png    13.51 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/89a7d6bbd9a66975.png    13.51 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/89a7d6bbd9a66975.png    13.51 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/89a7d6bbd9a66975.png    13.51 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/89a7d6bbd9a66975.png    13.51 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/89a7d6bbd9a66975.png    13.51 MB
+backend/sonar-storage/surveys/AI-BATCH/58c72c19e31167e8.png          13.29 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/58c72c19e31167e8.png    13.29 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/58c72c19e31167e8.png    13.29 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/58c72c19e31167e8.png    13.29 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/58c72c19e31167e8.png    13.29 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/58c72c19e31167e8.png    13.29 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/58c72c19e31167e8.png    13.29 MB
+backend/sonar-storage/surveys/AI-BATCH/760104f2b7d89774.png          13.27 MB
+datasets/train/images/shipwreck_0028.png                             13.27 MB
+datasets/train/images/shipwreck_0113.png                             13.27 MB
+backend/sonar-storage/surveys/AI-BATCH/893fa8e7a0c40d2b.png          13.23 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/893fa8e7a0c40d2b.png    13.23 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/893fa8e7a0c40d2b.png    13.23 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/893fa8e7a0c40d2b.png    13.23 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/893fa8e7a0c40d2b.png    13.23 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/893fa8e7a0c40d2b.png    13.23 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/893fa8e7a0c40d2b.png    13.23 MB
+backend/sonar-storage/surveys/AI-BATCH/6183908fce68c668.png          13.13 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/6183908fce68c668.png    13.13 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/6183908fce68c668.png    13.13 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/6183908fce68c668.png    13.13 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/6183908fce68c668.png    13.13 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/6183908fce68c668.png    13.13 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/6183908fce68c668.png    13.13 MB
+backend/sonar-storage/surveys/AI-BATCH/3ab6e1ce4a575bd4.png          13.04 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/3ab6e1ce4a575bd4.png    13.04 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/3ab6e1ce4a575bd4.png    13.04 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/3ab6e1ce4a575bd4.png    13.04 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/3ab6e1ce4a575bd4.png    13.04 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/3ab6e1ce4a575bd4.png    13.04 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/3ab6e1ce4a575bd4.png    13.04 MB
+datasets/train/images/shipwreck_0073.png                             13.02 MB
+backend/sonar-storage/surveys/AI-BATCH/8937d6b525aaf22b.png          12.95 MB
+backend/sonar-storage/surveys/training/6ab81c2c85cb433e2314c9fb/8937d6b525aaf22b.png    12.95 MB
+backend/sonar-storage/surveys/training/6ab81cb985cb433e2314cd9d/8937d6b525aaf22b.png    12.95 MB
+backend/sonar-storage/surveys/training/6ab81d7285cb433e2314d1f1/8937d6b525aaf22b.png    12.95 MB
+backend/sonar-storage/surveys/training/6ab895fa57cbf95c0e3ef5e9/8937d6b525aaf22b.png    12.95 MB
+backend/sonar-storage/surveys/training/6ab8998568acd8118a6efda2/8937d6b525aaf22b.png    12.95 MB
+backend/sonar-storage/surveys/training/6ab8e44393676dbff84e667b/8937d6b525aaf22b.png    12.95 MB
+datasets/val/images/shipwreck_0044.png                               12.94 MB
+datasets/train/images/shipwreck_0149.png                             12.55 MB
+datasets/train/images/shipwreck_0213.png                             12.52 MB
+datasets/test/images/shipwreck_0005.png                              12.31 MB
+datasets/val/images/shipwreck_0021.png                               12.21 MB
+datasets/train/images/shipwreck_0083.png                             12.20 MB
+backend/sonar-storage/surveys/AI-BATCH/c90a2783a65aa9d6.png          12.11 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/c90a2783a65aa9d6.png    12.11 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/c90a2783a65aa9d6.png    12.11 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/c90a2783a65aa9d6.png    12.11 MB
+backend/sonar-storage/surveys/AI-BATCH/4f6aa52f18b9b240.png          12.08 MB
+datasets/train/images/rock_0306.png                                  12.08 MB
+datasets/val/images/rock_0055.png                                    12.05 MB
+backend/sonar-storage/surveys/AI-BATCH/4e4f6fbfd06e651c.png          12.03 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/4e4f6fbfd06e651c.png    12.03 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/4e4f6fbfd06e651c.png    12.03 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/4e4f6fbfd06e651c.png    12.03 MB
+backend/sonar-storage/surveys/AI-BATCH/217cc4970ea8aad7.png          12.02 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/217cc4970ea8aad7.png    12.02 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/217cc4970ea8aad7.png    12.02 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/217cc4970ea8aad7.png    12.02 MB
+datasets/train/images/shipwreck_0101.png                             12.02 MB
+backend/sonar-storage/surveys/AI-BATCH/0d631af73e39d6d9.png          11.97 MB
+datasets/train/images/rock_0287.png                                  11.97 MB
+datasets/train/images/shipwreck_0160.png                             11.90 MB
+backend/sonar-storage/surveys/AI-BATCH/46483a30e2a6aa62.png          11.88 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/46483a30e2a6aa62.png    11.88 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/46483a30e2a6aa62.png    11.88 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/46483a30e2a6aa62.png    11.88 MB
+backend/sonar-storage/surveys/AI-BATCH/4adca5e6891cd8d8.png          11.86 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/4adca5e6891cd8d8.png    11.86 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/4adca5e6891cd8d8.png    11.86 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/4adca5e6891cd8d8.png    11.86 MB
+backend/sonar-storage/surveys/AI-BATCH/e320c8da9e80eb1c.png          11.85 MB
+datasets/train/images/shipwreck_0008.png                             11.85 MB
+datasets/train/images/shipwreck_0132.png                             11.82 MB
+datasets/test/images/rock_0040.png                                   11.80 MB
+backend/sonar-storage/surveys/AI-BATCH/558d8fa5b6724854.png          11.77 MB
+datasets/train/images/rock_0301.png                                  11.77 MB
+datasets/train/images/shipwreck_0130.png                             11.76 MB
+backend/sonar-storage/surveys/AI-BATCH/0d38ef606460ff5b.png          11.74 MB
+datasets/train/images/rock_0289.png                                  11.74 MB
+backend/sonar-storage/surveys/AI-BATCH/e253f0e5cb44aa97.png          11.54 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/e253f0e5cb44aa97.png    11.54 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/e253f0e5cb44aa97.png    11.54 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/e253f0e5cb44aa97.png    11.54 MB
+backend/sonar-storage/surveys/AI-BATCH/b89b3b6e3c66e1eb.png          11.42 MB
+datasets/train/images/rock_0275.png                                  11.42 MB
+datasets/val/images/rock_0058.png                                    11.37 MB
+datasets/train/images/shipwreck_0143.png                             10.95 MB
+backend/sonar-storage/surveys/AI-BATCH/4671ba19c9847c9f.png          10.91 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/4671ba19c9847c9f.png    10.91 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/4671ba19c9847c9f.png    10.91 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/4671ba19c9847c9f.png    10.91 MB
+datasets/train/images/shipwreck_0102.png                             10.55 MB
+backend/sonar-storage/surveys/AI-BATCH/7696fcb03f048060.png          10.53 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/7696fcb03f048060.png    10.53 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/7696fcb03f048060.png    10.53 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/7696fcb03f048060.png    10.53 MB
+backend/sonar-storage/surveys/AI-BATCH/fe24a4ae25cb8279.png          10.38 MB
+backend/sonar-storage/surveys/training/6ab8e57793676dbff84e6a3d/fe24a4ae25cb8279.png    10.38 MB
+backend/sonar-storage/surveys/training/6ab8f4ea93676dbff84e6e09/fe24a4ae25cb8279.png    10.38 MB
+backend/sonar-storage/surveys/training/6ab8f95a15dce2438c06c512/fe24a4ae25cb8279.png    10.38 MB
+datasets/train/images/shipwreck_0179.png                             10.12 MB
+ai-models/marine-yolo26x.onnx                                        10.08 MB
+backend/ai-models/marine-yolo26x.onnx                                10.08 MB
+models/marinevision_yolo26x.onnx                                     10.08 MB
+models/marinevision_yolo26x_best.onnx                                10.08 MB
+
+6. DUPLICATE FILES IDENTIFIED (Exact SHA-256 Match, Non-NodeModules)
+--------------------------------------------------------------------------------
+Total Duplicate Pairs:    1973
+Duplicate Waste Size:     7.67 GB
+Sample Duplicates:
+  Canonical: ai-models/marine-yolo26x.onnx
+  Duplicate: backend/ai-models/marine-yolo26x.onnx (10.08 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/16fe0e4bc3cc148f.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/16fe0e4bc3cc148f.png (2.23 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/48804c5645b169eb.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/48804c5645b169eb.png (2.24 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/5686c5288185eadd.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/5686c5288185eadd.png (2.24 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/782dcd36bc045289.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/782dcd36bc045289.png (1.94 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/866a44065b5a1115.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/866a44065b5a1115.png (2.14 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/90f1a03074fadc27.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/90f1a03074fadc27.png (2.18 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/b1997cce62427f39.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/b1997cce62427f39.png (2.31 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/fb7c58c952f5cadb.png
+  Duplicate: backend/sonar-storage/surveys/SURV-HIST-NOAA/fb7c58c952f5cadb.png (2.14 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/0ffd3aa486d2dfb4.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/0ffd3aa486d2dfb4.png (21.06 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/16fe0e4bc3cc148f.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/16fe0e4bc3cc148f.png (2.23 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/48804c5645b169eb.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/48804c5645b169eb.png (2.24 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/493bb6207c660a6d.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/493bb6207c660a6d.png (3.49 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/55860fe2152cbaf9.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/55860fe2152cbaf9.png (21.12 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/5686c5288185eadd.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/5686c5288185eadd.png (2.24 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/782dcd36bc045289.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/782dcd36bc045289.png (1.94 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/7e71e6a0fba41e7a.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/7e71e6a0fba41e7a.png (7.02 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/823923ec59439247.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/823923ec59439247.png (7.35 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/866a44065b5a1115.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/866a44065b5a1115.png (2.14 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/90f1a03074fadc27.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/90f1a03074fadc27.png (2.18 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/a31f5c30d5c0bba6.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/a31f5c30d5c0bba6.png (21.06 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/a42a2c2b0667c371.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/a42a2c2b0667c371.png (7.15 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/b1997cce62427f39.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/b1997cce62427f39.png (2.31 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/ce7ea37498cdd30c.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/ce7ea37498cdd30c.png (79.28 KB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/d0625df140f1e3e0.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/d0625df140f1e3e0.png (7.10 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/d9430e3b68c837f7.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/d9430e3b68c837f7.png (6.74 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/de3238eb104f9d07.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/de3238eb104f9d07.png (6.79 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/e9b070dabf080c79.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/e9b070dabf080c79.png (6.97 MB)
+
+  Canonical: backend/sonar-storage/surveys/AI-BATCH/fb7c58c952f5cadb.png
+  Duplicate: backend/sonar-storage/surveys/training/6a9fdb129ad66e466eb8107c/fb7c58c952f5cadb.png (2.14 MB)
+
+  Canonical: backend/sonar-storage/surveys/SURV-HIST-NOAA/05218b2e473af78d.png
+  Duplicate: backend/sonar-storage/surveys/training/6ab79eea474cc70de16bda8f/05218b2e473af78d.png (6.73 MB)
+
+  ... and 1943 more duplicate files
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

@@ -1,0 +1,12 @@
+Original model SHA256: f6534f91aebc423835f5cdd2650dc0f7ca0e63e32b4623400a6adfabbbdc08fb
+Final model SHA256: f6534f91aebc423835f5cdd2650dc0f7ca0e63e32b4623400a6adfabbbdc08fb
+Model unchanged: YES
+
+Model Weights Check (best.pt):
+Original best.pt SHA256: 6ffda01b200ea7bedc076082fc03f18a48e49178fe3b3d224c152cd4139a6b60
+Final best.pt SHA256:    6ffda01b200ea7bedc076082fc03f18a48e49178fe3b3d224c152cd4139a6b60
+Weights unchanged:       YES
+
+Model Path: backend/ai-models/marine-yolo26x.onnx
+Model Size: 10.08 MB
+Verification: 100% bit-exact match with master copy. No weights, layers, classes or inference logic modified.

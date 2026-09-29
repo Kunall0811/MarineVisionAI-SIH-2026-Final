@@ -1,0 +1,30 @@
+# MarineVision AI - side-scan sonar dataset config (Ultralytics YOLO format)
+#
+# Paths are relative to this file's directory.
+#
+# IMPORTANT: these class names/order are matched 1:1 to DETECTION_CLASSES in
+# backend/src/modules/ai-inference/ai-inference.service.ts, so that an ONNX
+# model exported from this dataset can be dropped at ONNX_MODEL_PATH and
+# consumed by the existing backend's parseYoloOutput() without any backend
+# code changes. If you add/remove/reorder classes here, update
+# DETECTION_CLASSES in that file to match, in the same order.
+
+path: .
+train: images/train
+val: images/val
+test: images/test
+
+# Class list - EDIT this list to match the classes your dataset actually has
+# verified, labelled examples for. Do not list a class here unless real
+# labelled training images exist for it (see ml/README.md, section on
+# "small dataset warning").
+names:
+  0: ghost_net
+  1: fishing_gear
+  2: container
+  3: pipe
+  4: cylinder
+  5: shipwreck
+  6: marine_debris
+  7: artificial_structure
+  8: unknown_anomaly

@@ -1,0 +1,35 @@
+# Optional Docker Compose for running both services locally without external databases
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: marinevision-backend
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
+      - CORS_ORIGIN=http://localhost:5173,http://localhost:80
+      - AUTO_SEED_DEMO=true
+      - STORAGE_LOCAL_PATH=/data
+    volumes:
+      - marinevision_data:/data
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=http://localhost:4000/api
+        - VITE_WS_HOST=localhost:4000
+    container_name: marinevision-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  marinevision_data:
